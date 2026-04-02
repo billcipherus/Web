@@ -1,0 +1,44 @@
+.purple-box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: rebeccapurple;
+}
+
+.blue-box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+}
+
+.yellow-box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: gold;
+}
+
+.green-box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: lightgreen;
+}
+
+.grey-box {
+    padding: 20px;
+    padding-right: 25px;
+    margin: 15px;
+    background-color: grey;
+    width: min-content;
+    height: auto;
+    
+}
+
+#boxes-in-box {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}

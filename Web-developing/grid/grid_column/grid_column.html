@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 10px;
+                grid-template-areas: 
+                "one two three"
+                "four five six";
+            }
+
+            .one {
+                background-color: lightgreen;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .two {
+                background-color: lightyellow;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .three {
+                background-color: lightskyblue;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .four {
+                background-color: lightpink;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .five {
+                background-color: lightseagreen;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .six {
+                background-color: lightcoral;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 75px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="one">
+                <p>1</p>
+            </div>
+            <div class="two">
+                <p>2</p>
+            </div>
+            <div class="three">
+                <p>3</p>
+            </div>
+            <div class="four">
+                <p>4</p>
+            </div>
+            <div class="five">
+                <p>5</p>
+            </div>
+            <div class="six">
+                <p>6</p>
+            </div>
+
+        </div>
+    </body>
+</html>

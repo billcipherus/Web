@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <div id="container">
+            <button id="btn">Click on me!</button>
+        </div>
+        <script>
+            const ctn = document.getElementById('container')
+            const btn = document.getElementById('btn')
+            btn.addEventListener('click', () => {
+                event.stopPropagation();
+                console.log("You've clicked on button")
+            })
+            ctn.addEventListener('click', () => {
+                console.log("You've clcked on container")
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+html {
+
+}
+.composition {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/bg.jpg);
+    background-size: 100%;
+    width: 640px;
+    height: 426px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .planet-1 {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/planet-1.png);
+    background-size: 100%;
+    width: 130px;
+    height: 130px;
+    margin-top: 22px;
+    margin-left: 13.5em;
+    z-index: 1;
+  }
+  
+  .planet-2 {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/planet-2.png);
+    background-size: 100%;
+    width: 182.5px;
+    height: 182.5px;
+    margin-top: -80px;
+    margin-left: 80px;
+    z-index: 2;
+  }
+  
+  .planet-3 {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/planet-3.png);
+    background-size: 100%;
+    width: 235px;
+    height: 234px;
+    margin-top: -60px;
+    margin-left: 180px;
+    z-index: 4;
+  }
+  
+  .asteroid {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/asteroid.png);
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    margin-top: -270px;
+    margin-left: 455px;
+    z-index: 1;
+  }
+  
+  .spaceship {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/spaceship.png);
+    background-size: 100%;
+    width: 40px;
+    height: 48.5px;
+    margin-top: -90px;
+    margin-left: 180px;
+    z-index: 3;
+  }
+  
+  .ufo {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/ufo.png);
+    background-size: 100%;
+    width: 68.5px;
+    height: 47px;
+    margin-top: -80px;
+    margin-left: 153px;
+    z-index: 5;
+  }
+  
+ .superman {
+    background: url(https://raw.githubusercontent.com/billcipherus/dz/refs/heads/main/1дз/img/superman.png);
+    background-size: 100%;
+    width: 74px;
+    height: 69px;
+    margin-top: 204px;
+    margin-left: 520px;
+    z-index: 1;
+  }

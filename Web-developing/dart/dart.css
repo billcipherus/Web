@@ -1,0 +1,10 @@
+.target {
+    display: flex;
+    width: 1952px;
+    height: 1487px;
+    background-size: 100%;
+    background-image: url("file:///C:/Users/nikol/OneDrive/Рабочий%20стол/Web-developing/dart/orig.jpeg");
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

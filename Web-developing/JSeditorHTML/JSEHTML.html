@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            #box {
+                width: 100px;
+                height: 100px;
+                background-color: gray;
+                margin-bottom: 10px;
+            }
+
+            .highlight {
+                font-weight: bold;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Hi!</h1>
+        <button onclick="changeTitle()">Change title</button>
+        <hr>
+        <div id="box"></div>
+        <button onclick="changeColor()">Change block color</button>
+        <hr>
+        <ul id="list">
+            <li>1st element</li>
+            <li>2nd element</li>
+        </ul>
+        <button onclick="addItem()">Add element</button>
+        <hr>
+        <p id="text">Changing text</p>
+        <button onclick="highlightText()">Add some class and change color</button>
+        <script>
+            const title = document.getElementById("title");
+            function changeTitle() {
+                title.textContent = "ГОЙДА"
+            }
+
+            const box = document.getElementById("box");
+            let isGreen = false;
+            function changeColor() {
+                if (isGreen == true) {
+                    box.style.backgroundColor = "red"
+                    console.log("red")
+                }
+                else {
+                    box.style.backgroundColor = "green"
+                    console.log("green")
+                }
+                isGreen = ! isGreen;
+            }
+
+            const element = document.getElementById("list");
+            function addItem() {
+                const li = document.createElement("li");
+                li.textContent = "Salam Maleykum"
+                element.appendChild(li)
+            }
+
+            const text = document.getElementById("text");
+            function highlightText() {
+                text.classList.add("highLight")
+                text.style.color = "lightgreen"
+            }
+        </script>
+    </body>
+</html>

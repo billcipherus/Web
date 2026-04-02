@@ -1,0 +1,60 @@
+.cat1 {
+    position: relative;
+    background: url(file:///C:/Users/nikol/OneDrive/Рабочий%20стол/Web-developing/24%20июня/cats/cat1.png);
+    background-size: 100%;
+    width: 186px;
+    height: 346px;
+    order: 1;
+}
+
+.cat2 {
+    position: relative;
+    background: url(file:///C:/Users/nikol/OneDrive/Рабочий%20стол/Web-developing/24%20июня/cats/cat2.png);
+    width: 222px;
+    height: 142px;
+    order: 3;
+    left: 125px;
+}
+
+.cat3 {
+    position: relative;
+    background: url(file:///C:/Users/nikol/OneDrive/Рабочий%20стол/Web-developing/24%20июня/cats/cat3.png);
+    background-size: 100%;
+    width: 243px;
+    height: 155px;
+    order: 5;
+    left: 87px;
+}
+
+.cat4 {
+    position: relative;
+    background: url(file:///C:/Users/nikol/OneDrive/Рабочий%20стол/Web-developing/24%20июня/cats/cat4.png);
+    width: 195px;
+    height: 220px;
+    order: 4;
+    right: 30px; 
+}
+
+.cat5 {
+    position: relative;
+    background: url(file:///C:/Users/nikol/OneDrive/Рабочий%20стол/Web-developing/24%20июня/cats/cat5.png);
+    width: 270px;
+    height: 116px;
+    order: 6;
+    right: 100px;
+}
+
+.cat6 {
+    position: relative;
+    background: url(file:///C:/Users/nikol/OneDrive/Рабочий%20стол/Web-developing/24%20июня/cats/cat6.png);
+    width: 219px;
+    height: 199px;
+    order: 2;
+}
+
+#cats {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    top: 200px;
+}

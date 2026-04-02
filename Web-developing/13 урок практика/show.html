@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <button id="btn">Show / Hide</button>
+        <div id="square" style="width: 100px; height: 100px; color: black; background-color: black;"></div>
+
+        <script>
+            const btn = document.getElementById('btn')
+            const square = document.getElementById('square')
+            num = 0
+            btn.addEventListener('click', () => {
+                if (num === 0) {
+                    num += 1
+                    square.style.display = "none"
+                }
+                else if (num === 1) {
+                    num -= 1
+                    square.style.display = "block"
+                }
+            })
+            square.addEventListener('mousemove', (even) => {
+                console.log(`${even.clientX}, ${evem.clientY}`)
+                square.style.transform = `translate: ${even.clientX}, ${even.clientY}`
+            })
+        </script>
+    </body>
+</html>

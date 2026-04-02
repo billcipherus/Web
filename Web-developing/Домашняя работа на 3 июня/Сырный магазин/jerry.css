@@ -1,0 +1,133 @@
+body {
+    background: #f5e5c0;
+}
+
+.shelf {
+    background: url(https://cdn141.picsart.com/289784565022211.png);
+    background-size: 100%;
+    width: 800px;
+    height: 768px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    z-index: 1;
+}
+
+.cheese1 {
+    background: url(https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-30c1fa13eb758d460e0065ac65b1feb0.png);
+    background-size: 100%;
+    position: absolute;
+    width: 106px;
+    height: 65px;
+    left: 50px;
+    z-index: 2;
+}
+
+.cheese2 {
+    background: url(https://media.baamboozle.com/uploads/images/230725/1610992065_126112);
+    background-size: 100%;
+    position: absolute;
+    width: 106px;
+    height: 65px;
+    right: 120px;
+    bottom: 120px;
+    z-index: 2;
+}
+
+.milk1 {
+    background: url(https://green-agro.ru/wp-content/uploads/2024/01/moloko_otbornoe_pjet_1000-2-2-430x430.png);
+    background-size: 100%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 90px;
+    left: 175px;
+    z-index: 2;
+}
+
+.milk2 {
+    background: url(https://i0.wp.com/udoba.org/sites/default/files/h5p/content/50758/images/file-6358c44c5f8b7.png?ssl=1);
+    background-size: 100%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 160px;
+    right: 10px;
+    z-index: 2;
+}
+
+.yogurt1 {
+    background: url(https://cdn.ime.by/UserFiles/images/catalog/Goods/2837/00402837/norm/00402837.n_1.png);
+    background-size: 100%;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -20px;
+    right: 250px;
+    z-index: 2;
+}
+
+.yogurt2 {
+    background: url(https://mt.delivery/img/img/items/gallery/562219/2.png?1725213370);
+    background-size: 100%;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 100px;
+    left: 150px;
+    z-index: 2;
+}
+
+.jerry {
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFRIJvYyUzDPfeYJ5quIikag93RIFJcblokB8gNK8osbVVcVjUGIFFdE1QLt9AKxPKQb_LNTXOV8kxkeAHhGOAW9V_yojdnG2aR49JbFWy26Rp_T7__FNElHRRmhrRwxQdLLq0tL5luAZlec5X_tR5YujCfHtXvO18Df1Axm5P4Uo8caMRK_tYYWlW/s1600/Mouse-Jerry-PNG-Descarga-gratis%20%289%29.png);
+    background-size: 100%;
+    position: absolute;
+    width: 160px;
+    height: 153px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.cass {
+    background: url(https://www.watervend.ru/wp-content/uploads/2019/10/Onlajn-kassa-dlya-vendinga.png);
+    background-size: 100%;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: 10px;
+    right: 180px;
+    z-index: 1;
+}
+
+.door {
+    background: url(https://www.pngarts.com/files/7/Wooden-Door-PNG-Image-Background.png);
+    background-size: 100%;
+    position: absolute;
+    width: 600px;
+    height: 790px;
+    bottom: 50px;
+    left: -135px;
+}
+
+.square {
+    width: 300px;
+    height: 80px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 5px;
+    left: 750px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.sign {
+    background: url(https://proinfosoft.ru/assets/images/Consultation/Trebuetsya-li-gosudarstvennaya-registraciya-v-otnoshenii-ranee-zaregistrirovannoj-pishhevoj-produkcii-novogo-vida.png);
+    background-size: 100%;
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    top: 5px;
+    left: 80px;
+    z-index: 2;
+}

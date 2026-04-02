@@ -1,0 +1,83 @@
+.black1 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: darkslateblue;
+}
+
+.black2 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: darkslateblue;
+
+}
+
+.black3 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: darkslateblue;
+    order: 6;
+
+}
+
+.black4 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: darkslateblue;
+    order: 8;
+
+}
+
+.white1 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: whitesmoke;
+
+}
+
+.white2 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: whitesmoke;    
+}
+
+.white3 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: whitesmoke;
+    order: 5;    
+}
+
+.white4 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: whitesmoke;
+    order: 7;
+}
+
+.a-desk {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkgrey;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: fit-content;
+}
+
+.b-desk {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkgrey;
+    margin-top: -10px;
+    margin-left: 15px;
+    width: fit-content;
+}

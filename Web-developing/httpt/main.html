@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      #title {
+        background-color: green;
+        color: yellow;
+      }
+
+      .post {
+        border: 1px;
+        border-color: black;
+        margin: 10px;
+        border-radius: 5px;
+      }
+
+      input,
+      textarea {
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .btn {
+        padding: 5px;
+        margin: 5px;
+      }
+
+      .error {
+        color: red;
+      }
+    </style>
+    <title>Что-то</title>
+  </head>
+  <body>
+    <h1>Управление постами</h1>
+    <div style="border: 2px; color: green; padding: 15px; margin-bottom: 20px">
+      <h3>создать новый пост</h3>
+      <input type="text" id="title" />
+      <textarea id="body" placeholder="posttext" rows="3"></textarea>
+      <button onclick="createPost()" class="btn">создать текст</button>
+      <div id="formerror" class="error"></div>
+    </div>
+    <h2>список постов</h2>
+    <div id="postlist">ашiбочка</div>
+    <script src="post.js"></script>
+  </body>
+</html>

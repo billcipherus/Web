@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+body,
+html {
+	background: darkslategrey;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 6rem;
+	font-family: "Montserrat", sans-serif;
+	width: 100%;
+}
+
+h1{
+	font-family: "Amatic SC", sans-serif;
+	color: #fff;
+	font-size: 7rem;
+}
+
+.featured_wrapper {
+	position: relative;
+}
+
+.featured_wrapper img {
+	width: 100%;
+	height: 70vh;
+	object-fit: cover;
+	object-position: top;
+}
+
+.title_wrapper {
+	position: absolute;
+	width: 100%;
+	left: 2rem;
+	bottom: 2rem;
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+
+.title_wrapper h1 {
+	width: 70%;
+}
+
+.container {
+	padding-bottom: 3rem;
+	padding-top: 5em;
+}
+
+img {
+	transition: all 0.5s ease;
+}
+
+.container img:hover {
+	transform: scale(1.1);
+}
+
+.slider {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+.slides {
+	display: flex;
+	transition: transform 1.5s ease;
+	width: 400%;
+}
+
+.slide {
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.slide img {
+	width: 20%;
+	height: auto;
+}
+
+@keyframes slide-animation {
+	0% {transform: translateX(0);}
+	25% {transform: translateX(-100%);}
+	50% {transform: translateX(-200%);}
+	75% {transform: translateX(-300%);}
+	100% {transform: translateX(0);}
+}
+
+.slides {
+	animation: slide-animation 18s infinite;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	width: 30%;
+	margin: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	box-shadow: 0 2px 5px black;
+	max-width: 400px;
+	padding 15px;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.card-content {
+	padding: 15px;
+}
+
+.card-title {
+	font-size: 1.5em;
+	margin-top: 10px ;
+}
+
+.card-subtitle {
+	font-size: 1.2em;
+	color: darkslategray;
+	margin-bottom: 40px;
+}
+
+#card3 {
+	margin-top: 255px;
+}
+
+.navbar {
+	background-color: darkred;
+}
+
+/* .navbar {
+	width: 75px;
+	height: 75px;
+} */
+
+.navbar-item {
+	color: aquamarine;
+	transition: background-color 0.5s ease;
+	font-family: "Comic Relief";
+}
+
+.navbar-item:hover {
+	font-weight: 700;
+}
