@@ -64,7 +64,7 @@ body {
   font-family: "Audiowide";
   font-size: 100px;
   letter-spacing: -5px;
-  color: #adb5bd;
+  color: #e2e2e2;
 }
 
 .carousel-caption {
@@ -81,8 +81,39 @@ body {
   background-color: #212132;
   font-size: 20px;
   font-family: "Anta";
-  color: #adb5bd;
+  color: #e2e2e2;
   margin: 0px 80px 50px 80px;
   padding: 10px;
   border: 5px solid #3a3a58;
+}
+
+.col {
+  margin: 10px
+}
+
+.card-title {
+  font-size: 50px;
+  font-family: Audiowide;
+  color: #e2e2e2;
+}
+
+.card-text {
+  font-size: 20px;
+  font-family: Anta;
+  color: #e2e2e2;
+}
+
+.card-img-top {
+  height: 580px;        /* задай нужную высоту */
+  object-fit: cover;    /* картинка заполнит область, не искажаясь */
+  object-position: center; /* центрирует обрезанную область */
+}
+
+.card-group {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card-footer small {
+  color: #ffffff !important;
 }
